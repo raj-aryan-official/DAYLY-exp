@@ -20,7 +20,6 @@ interface DashboardScreenProps {
   onProcessAIRequest: (input: string) => Promise<any>;
   onSaveAISchedule: (result: any) => void;
   onCalendarClick: (calendar: CalendarType) => void;
-  onToggleFavorite: (calId: number) => void;
 }
 
 const DashboardScreen: React.FC<DashboardScreenProps> = ({
@@ -36,7 +35,6 @@ const DashboardScreen: React.FC<DashboardScreenProps> = ({
   onProcessAIRequest,
   onSaveAISchedule,
   onCalendarClick,
-  onToggleFavorite,
 }) => {
   const totalTasks = calendars.reduce((acc, cal) => acc + cal.tasks, 0);
   const completedTasks = calendars.reduce((acc, cal) => acc + cal.completed, 0);

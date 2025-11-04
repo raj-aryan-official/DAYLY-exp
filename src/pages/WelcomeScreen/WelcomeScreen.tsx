@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Sparkles, Bell, Star } from 'lucide-react';
+import { Sparkles, Bell, Star } from 'lucide-react';
 import './WelcomeScreen.css';
 
 interface WelcomeScreenProps {

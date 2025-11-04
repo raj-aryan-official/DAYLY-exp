@@ -253,7 +253,6 @@ const DaylyApp = () => {
         onProcessAIRequest={processAIRequest}
         onSaveAISchedule={saveAISchedule}
         onCalendarClick={handleCalendarClick}
-        onToggleFavorite={toggleFavorite}
       />
     );
   }

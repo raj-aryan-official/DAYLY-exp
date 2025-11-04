@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import type { Screen } from '../../types/index';
 import './SideMenu.css';
 

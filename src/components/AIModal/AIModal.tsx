@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Sparkles, Send, Check } from 'lucide-react';
-import type { Calendar, Task, AIResult } from '../../types/index';
+import type { AIResult } from '../../types/index';
 import '../../styles/colors.css';
 import './AIModal.css';
 
