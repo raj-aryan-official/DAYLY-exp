@@ -1,0 +1,54 @@
+.splash-screen {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #2563eb, #9333ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-content {
+  text-align: center;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.splash-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.splash-calendar-icon {
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.splash-sparkles-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #fde047;
+}
+
+.splash-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.splash-subtitle {
+  color: white;
+  font-size: 0.875rem;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+

@@ -1,0 +1,155 @@
+.store-screen {
+  height: 100vh;
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+.store-header {
+  background: linear-gradient(to bottom right, #9333ea, #db2777);
+  color: white;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.store-close-button {
+  margin-bottom: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.store-close-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+}
+
+.store-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.store-subtitle {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.store-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  margin-top: -2rem;
+  padding-bottom: 5rem;
+}
+
+.store-pack-card {
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: white;
+}
+
+.store-pack-highlight {
+  background: linear-gradient(to right, #9333ea, #db2777);
+  color: white;
+}
+
+.store-pack-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.store-pack-info {
+  display: flex;
+  align-items: center;
+}
+
+.store-pack-icon {
+  font-size: 2.25rem;
+  margin-right: 1rem;
+}
+
+.store-pack-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.store-pack-description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.store-pack-highlight .store-pack-description {
+  opacity: 0.9;
+}
+
+.store-pack-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store-pack-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.store-pack-button {
+  background: linear-gradient(to right, #9333ea, #db2777);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.store-pack-button-highlight {
+  background: white;
+  color: #9333ea;
+}
+
+.store-pro-card {
+  background: #eff6ff;
+  border: 2px solid #bfdbfe;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.store-pro-title {
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: #1e3a8a;
+}
+
+.store-pro-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #1e40af;
+}
+
+.store-pro-button {
+  width: 100%;
+  background: linear-gradient(to right, #2563eb, #9333ea);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
